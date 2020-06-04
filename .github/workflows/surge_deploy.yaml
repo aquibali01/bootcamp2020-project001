@@ -31,5 +31,5 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run surge
-      run: surge ./ http://project001-aquib.surge.sh/ --token ${{secret.surge_token}}
+      run: surge ./ http://project001-aquib.surge.sh/ --token ${{secrets.surge_token}}
         
